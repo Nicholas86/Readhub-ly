@@ -1,0 +1,827 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		193BC013DB8F47403A7A2A93 /* libPods-Readhub-lyTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54333B48EC3DB930FB3C7DE9 /* libPods-Readhub-lyTests.a */; };
+		6D69B262CD79F768DD3B9780 /* libPods-Readhub-lyUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4199C360AF94A16156E4AA01 /* libPods-Readhub-lyUITests.a */; };
+		705F0F0D20655585001D4CC1 /* TopicsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 705F0F0C20655585001D4CC1 /* TopicsViewController.m */; };
+		705F0F12206555BD001D4CC1 /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 705F0F11206555BD001D4CC1 /* NewsViewController.m */; };
+		705F0F15206555CC001D4CC1 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 705F0F14206555CC001D4CC1 /* ProfileViewController.m */; };
+		705F0F1B20656B56001D4CC1 /* LYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 705F0F1A20656B56001D4CC1 /* LYNavigationController.m */; };
+		70EA0BBB20654E3E009D8831 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EA0BBA20654E3E009D8831 /* AppDelegate.m */; };
+		70EA0BC120654E3E009D8831 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70EA0BBF20654E3E009D8831 /* Main.storyboard */; };
+		70EA0BC320654E3E009D8831 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70EA0BC220654E3E009D8831 /* Assets.xcassets */; };
+		70EA0BC620654E3E009D8831 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70EA0BC420654E3E009D8831 /* LaunchScreen.storyboard */; };
+		70EA0BC920654E3E009D8831 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EA0BC820654E3E009D8831 /* main.m */; };
+		70EA0BD320654E3E009D8831 /* Readhub_lyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EA0BD220654E3E009D8831 /* Readhub_lyTests.m */; };
+		70EA0BDE20654E3E009D8831 /* Readhub_lyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EA0BDD20654E3E009D8831 /* Readhub_lyUITests.m */; };
+		70EA0BF220654ED4009D8831 /* LYBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EA0BF120654ED4009D8831 /* LYBaseViewController.m */; };
+		70EA0BF520654EFB009D8831 /* LYTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EA0BF420654EFB009D8831 /* LYTabController.m */; };
+		9C0E2706D91240B70B4E534B /* libPods-Readhub-ly.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E76B266F2DECE32A92320CF /* libPods-Readhub-ly.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70EA0BCF20654E3E009D8831 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70EA0BAE20654E3E009D8831 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70EA0BB520654E3E009D8831;
+			remoteInfo = "Readhub-ly";
+		};
+		70EA0BDA20654E3E009D8831 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70EA0BAE20654E3E009D8831 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70EA0BB520654E3E009D8831;
+			remoteInfo = "Readhub-ly";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28DF62F7CF9AF5B30F6B7A90 /* Pods-Readhub-lyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Readhub-lyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Readhub-lyTests/Pods-Readhub-lyTests.release.xcconfig"; sourceTree = "<group>"; };
+		4199C360AF94A16156E4AA01 /* libPods-Readhub-lyUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Readhub-lyUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44FD38305C11EA54D416ED36 /* Pods-Readhub-ly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Readhub-ly.release.xcconfig"; path = "Pods/Target Support Files/Pods-Readhub-ly/Pods-Readhub-ly.release.xcconfig"; sourceTree = "<group>"; };
+		54333B48EC3DB930FB3C7DE9 /* libPods-Readhub-lyTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Readhub-lyTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E76B266F2DECE32A92320CF /* libPods-Readhub-ly.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Readhub-ly.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		705F0F0B20655585001D4CC1 /* TopicsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TopicsViewController.h; path = ../../../../../../Documents/TopicsViewController.h; sourceTree = "<group>"; };
+		705F0F0C20655585001D4CC1 /* TopicsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TopicsViewController.m; path = ../../../../../../Documents/TopicsViewController.m; sourceTree = "<group>"; };
+		705F0F10206555BD001D4CC1 /* NewsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
+		705F0F11206555BD001D4CC1 /* NewsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
+		705F0F13206555CC001D4CC1 /* ProfileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		705F0F14206555CC001D4CC1 /* ProfileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		705F0F162065673F001D4CC1 /* PrefixTools.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixTools.pch; sourceTree = "<group>"; };
+		705F0F1920656B56001D4CC1 /* LYNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYNavigationController.h; sourceTree = "<group>"; };
+		705F0F1A20656B56001D4CC1 /* LYNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYNavigationController.m; sourceTree = "<group>"; };
+		70EA0BB620654E3E009D8831 /* Readhub-ly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Readhub-ly.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70EA0BB920654E3E009D8831 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		70EA0BBA20654E3E009D8831 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		70EA0BC020654E3E009D8831 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		70EA0BC220654E3E009D8831 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70EA0BC520654E3E009D8831 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		70EA0BC720654E3E009D8831 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70EA0BC820654E3E009D8831 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		70EA0BCE20654E3E009D8831 /* Readhub-lyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Readhub-lyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70EA0BD220654E3E009D8831 /* Readhub_lyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Readhub_lyTests.m; sourceTree = "<group>"; };
+		70EA0BD420654E3E009D8831 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70EA0BD920654E3E009D8831 /* Readhub-lyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Readhub-lyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70EA0BDD20654E3E009D8831 /* Readhub_lyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Readhub_lyUITests.m; sourceTree = "<group>"; };
+		70EA0BDF20654E3E009D8831 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70EA0BF020654ED4009D8831 /* LYBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYBaseViewController.h; sourceTree = "<group>"; };
+		70EA0BF120654ED4009D8831 /* LYBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYBaseViewController.m; sourceTree = "<group>"; };
+		70EA0BF320654EFB009D8831 /* LYTabController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYTabController.h; sourceTree = "<group>"; };
+		70EA0BF420654EFB009D8831 /* LYTabController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYTabController.m; sourceTree = "<group>"; };
+		76F7A7D6CA4CCE39935FA5E5 /* Pods-Readhub-ly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Readhub-ly.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Readhub-ly/Pods-Readhub-ly.debug.xcconfig"; sourceTree = "<group>"; };
+		B6A6C69FCD35D6D022DA557B /* Pods-Readhub-lyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Readhub-lyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Readhub-lyUITests/Pods-Readhub-lyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CAC6DD52413489D90DA0016A /* Pods-Readhub-lyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Readhub-lyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Readhub-lyUITests/Pods-Readhub-lyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FDB66F8AC7D3B89DE0FA05AB /* Pods-Readhub-lyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Readhub-lyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Readhub-lyTests/Pods-Readhub-lyTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70EA0BB320654E3E009D8831 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C0E2706D91240B70B4E534B /* libPods-Readhub-ly.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70EA0BCB20654E3E009D8831 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				193BC013DB8F47403A7A2A93 /* libPods-Readhub-lyTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70EA0BD620654E3E009D8831 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D69B262CD79F768DD3B9780 /* libPods-Readhub-lyUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		705F0F0A2065554F001D4CC1 /* Topics */ = {
+			isa = PBXGroup;
+			children = (
+				705F0F0B20655585001D4CC1 /* TopicsViewController.h */,
+				705F0F0C20655585001D4CC1 /* TopicsViewController.m */,
+			);
+			name = Topics;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		705F0F0E2065558B001D4CC1 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				705F0F10206555BD001D4CC1 /* NewsViewController.h */,
+				705F0F11206555BD001D4CC1 /* NewsViewController.m */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		705F0F0F206555A5001D4CC1 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				705F0F13206555CC001D4CC1 /* ProfileViewController.h */,
+				705F0F14206555CC001D4CC1 /* ProfileViewController.m */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		70EA0BAD20654E3E009D8831 = {
+			isa = PBXGroup;
+			children = (
+				70EA0BB820654E3E009D8831 /* Readhub-ly */,
+				70EA0BD120654E3E009D8831 /* Readhub-lyTests */,
+				70EA0BDC20654E3E009D8831 /* Readhub-lyUITests */,
+				70EA0BB720654E3E009D8831 /* Products */,
+				EF11A1CD814B75C966E69CAE /* Pods */,
+				81E022C579A41D9787B17EAF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		70EA0BB720654E3E009D8831 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70EA0BB620654E3E009D8831 /* Readhub-ly.app */,
+				70EA0BCE20654E3E009D8831 /* Readhub-lyTests.xctest */,
+				70EA0BD920654E3E009D8831 /* Readhub-lyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70EA0BB820654E3E009D8831 /* Readhub-ly */ = {
+			isa = PBXGroup;
+			children = (
+				70EA0BEE20654EB0009D8831 /* Classes */,
+				70EA0BED20654E96009D8831 /* Resource */,
+				70EA0BEB20654E63009D8831 /* Application */,
+				70EA0BBF20654E3E009D8831 /* Main.storyboard */,
+				70EA0BC420654E3E009D8831 /* LaunchScreen.storyboard */,
+				70EA0BC720654E3E009D8831 /* Info.plist */,
+			);
+			path = "Readhub-ly";
+			sourceTree = "<group>";
+		};
+		70EA0BD120654E3E009D8831 /* Readhub-lyTests */ = {
+			isa = PBXGroup;
+			children = (
+				70EA0BD220654E3E009D8831 /* Readhub_lyTests.m */,
+				70EA0BD420654E3E009D8831 /* Info.plist */,
+			);
+			path = "Readhub-lyTests";
+			sourceTree = "<group>";
+		};
+		70EA0BDC20654E3E009D8831 /* Readhub-lyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				70EA0BDD20654E3E009D8831 /* Readhub_lyUITests.m */,
+				70EA0BDF20654E3E009D8831 /* Info.plist */,
+			);
+			path = "Readhub-lyUITests";
+			sourceTree = "<group>";
+		};
+		70EA0BEB20654E63009D8831 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				70EA0BB920654E3E009D8831 /* AppDelegate.h */,
+				70EA0BBA20654E3E009D8831 /* AppDelegate.m */,
+				70EA0BC820654E3E009D8831 /* main.m */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		70EA0BED20654E96009D8831 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				70EA0BC220654E3E009D8831 /* Assets.xcassets */,
+				705F0F162065673F001D4CC1 /* PrefixTools.pch */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		70EA0BEE20654EB0009D8831 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				70EA0BEF20654EBD009D8831 /* Base */,
+				705F0F0A2065554F001D4CC1 /* Topics */,
+				705F0F0E2065558B001D4CC1 /* News */,
+				705F0F0F206555A5001D4CC1 /* Profile */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		70EA0BEF20654EBD009D8831 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				70EA0BF020654ED4009D8831 /* LYBaseViewController.h */,
+				70EA0BF120654ED4009D8831 /* LYBaseViewController.m */,
+				70EA0BF320654EFB009D8831 /* LYTabController.h */,
+				70EA0BF420654EFB009D8831 /* LYTabController.m */,
+				705F0F1920656B56001D4CC1 /* LYNavigationController.h */,
+				705F0F1A20656B56001D4CC1 /* LYNavigationController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		81E022C579A41D9787B17EAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E76B266F2DECE32A92320CF /* libPods-Readhub-ly.a */,
+				54333B48EC3DB930FB3C7DE9 /* libPods-Readhub-lyTests.a */,
+				4199C360AF94A16156E4AA01 /* libPods-Readhub-lyUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF11A1CD814B75C966E69CAE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76F7A7D6CA4CCE39935FA5E5 /* Pods-Readhub-ly.debug.xcconfig */,
+				44FD38305C11EA54D416ED36 /* Pods-Readhub-ly.release.xcconfig */,
+				FDB66F8AC7D3B89DE0FA05AB /* Pods-Readhub-lyTests.debug.xcconfig */,
+				28DF62F7CF9AF5B30F6B7A90 /* Pods-Readhub-lyTests.release.xcconfig */,
+				B6A6C69FCD35D6D022DA557B /* Pods-Readhub-lyUITests.debug.xcconfig */,
+				CAC6DD52413489D90DA0016A /* Pods-Readhub-lyUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70EA0BB520654E3E009D8831 /* Readhub-ly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70EA0BE220654E3E009D8831 /* Build configuration list for PBXNativeTarget "Readhub-ly" */;
+			buildPhases = (
+				24ED003F0B2DF17E023414C5 /* [CP] Check Pods Manifest.lock */,
+				70EA0BB220654E3E009D8831 /* Sources */,
+				70EA0BB320654E3E009D8831 /* Frameworks */,
+				70EA0BB420654E3E009D8831 /* Resources */,
+				001F636C6CF31558C198CDA3 /* [CP] Embed Pods Frameworks */,
+				F0BB5137235A13346CDC7CE9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Readhub-ly";
+			productName = "Readhub-ly";
+			productReference = 70EA0BB620654E3E009D8831 /* Readhub-ly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		70EA0BCD20654E3E009D8831 /* Readhub-lyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70EA0BE520654E3E009D8831 /* Build configuration list for PBXNativeTarget "Readhub-lyTests" */;
+			buildPhases = (
+				96DAE653F8A5CC38FAF040A8 /* [CP] Check Pods Manifest.lock */,
+				70EA0BCA20654E3E009D8831 /* Sources */,
+				70EA0BCB20654E3E009D8831 /* Frameworks */,
+				70EA0BCC20654E3E009D8831 /* Resources */,
+				8ABA8C40AFD10B29541A1829 /* [CP] Embed Pods Frameworks */,
+				4DF0795B4ED75B8359501155 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70EA0BD020654E3E009D8831 /* PBXTargetDependency */,
+			);
+			name = "Readhub-lyTests";
+			productName = "Readhub-lyTests";
+			productReference = 70EA0BCE20654E3E009D8831 /* Readhub-lyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		70EA0BD820654E3E009D8831 /* Readhub-lyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70EA0BE820654E3E009D8831 /* Build configuration list for PBXNativeTarget "Readhub-lyUITests" */;
+			buildPhases = (
+				8C2D457101119B1F046E18E5 /* [CP] Check Pods Manifest.lock */,
+				70EA0BD520654E3E009D8831 /* Sources */,
+				70EA0BD620654E3E009D8831 /* Frameworks */,
+				70EA0BD720654E3E009D8831 /* Resources */,
+				3B56C8CE34C234ACA9FEF3D9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70EA0BDB20654E3E009D8831 /* PBXTargetDependency */,
+			);
+			name = "Readhub-lyUITests";
+			productName = "Readhub-lyUITests";
+			productReference = 70EA0BD920654E3E009D8831 /* Readhub-lyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70EA0BAE20654E3E009D8831 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = halohily.com;
+				TargetAttributes = {
+					70EA0BB520654E3E009D8831 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					70EA0BCD20654E3E009D8831 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 70EA0BB520654E3E009D8831;
+					};
+					70EA0BD820654E3E009D8831 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 70EA0BB520654E3E009D8831;
+					};
+				};
+			};
+			buildConfigurationList = 70EA0BB120654E3E009D8831 /* Build configuration list for PBXProject "Readhub-ly" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70EA0BAD20654E3E009D8831;
+			productRefGroup = 70EA0BB720654E3E009D8831 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70EA0BB520654E3E009D8831 /* Readhub-ly */,
+				70EA0BCD20654E3E009D8831 /* Readhub-lyTests */,
+				70EA0BD820654E3E009D8831 /* Readhub-lyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70EA0BB420654E3E009D8831 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70EA0BC620654E3E009D8831 /* LaunchScreen.storyboard in Resources */,
+				70EA0BC320654E3E009D8831 /* Assets.xcassets in Resources */,
+				70EA0BC120654E3E009D8831 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70EA0BCC20654E3E009D8831 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70EA0BD720654E3E009D8831 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		001F636C6CF31558C198CDA3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Readhub-ly/Pods-Readhub-ly-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		24ED003F0B2DF17E023414C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3B56C8CE34C234ACA9FEF3D9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Readhub-lyUITests/Pods-Readhub-lyUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DF0795B4ED75B8359501155 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Readhub-lyTests/Pods-Readhub-lyTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8ABA8C40AFD10B29541A1829 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Readhub-lyTests/Pods-Readhub-lyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C2D457101119B1F046E18E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		96DAE653F8A5CC38FAF040A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F0BB5137235A13346CDC7CE9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Readhub-ly/Pods-Readhub-ly-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70EA0BB220654E3E009D8831 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70EA0BF520654EFB009D8831 /* LYTabController.m in Sources */,
+				70EA0BC920654E3E009D8831 /* main.m in Sources */,
+				70EA0BBB20654E3E009D8831 /* AppDelegate.m in Sources */,
+				705F0F12206555BD001D4CC1 /* NewsViewController.m in Sources */,
+				705F0F1B20656B56001D4CC1 /* LYNavigationController.m in Sources */,
+				705F0F15206555CC001D4CC1 /* ProfileViewController.m in Sources */,
+				70EA0BF220654ED4009D8831 /* LYBaseViewController.m in Sources */,
+				705F0F0D20655585001D4CC1 /* TopicsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70EA0BCA20654E3E009D8831 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70EA0BD320654E3E009D8831 /* Readhub_lyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70EA0BD520654E3E009D8831 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70EA0BDE20654E3E009D8831 /* Readhub_lyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70EA0BD020654E3E009D8831 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70EA0BB520654E3E009D8831 /* Readhub-ly */;
+			targetProxy = 70EA0BCF20654E3E009D8831 /* PBXContainerItemProxy */;
+		};
+		70EA0BDB20654E3E009D8831 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70EA0BB520654E3E009D8831 /* Readhub-ly */;
+			targetProxy = 70EA0BDA20654E3E009D8831 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		70EA0BBF20654E3E009D8831 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70EA0BC020654E3E009D8831 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		70EA0BC420654E3E009D8831 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70EA0BC520654E3E009D8831 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		70EA0BE020654E3E009D8831 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		70EA0BE120654E3E009D8831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70EA0BE320654E3E009D8831 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76F7A7D6CA4CCE39935FA5E5 /* Pods-Readhub-ly.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HQWU6EWT6X;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Readhub-ly/Resource/PrefixTools.pch";
+				INFOPLIST_FILE = "Readhub-ly/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "halohily.com.Readhub-ly";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		70EA0BE420654E3E009D8831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44FD38305C11EA54D416ED36 /* Pods-Readhub-ly.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HQWU6EWT6X;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Readhub-ly/Resource/PrefixTools.pch";
+				INFOPLIST_FILE = "Readhub-ly/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "halohily.com.Readhub-ly";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		70EA0BE620654E3E009D8831 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDB66F8AC7D3B89DE0FA05AB /* Pods-Readhub-lyTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HQWU6EWT6X;
+				INFOPLIST_FILE = "Readhub-lyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "halohily.com.Readhub-lyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Readhub-ly.app/Readhub-ly";
+			};
+			name = Debug;
+		};
+		70EA0BE720654E3E009D8831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28DF62F7CF9AF5B30F6B7A90 /* Pods-Readhub-lyTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HQWU6EWT6X;
+				INFOPLIST_FILE = "Readhub-lyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "halohily.com.Readhub-lyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Readhub-ly.app/Readhub-ly";
+			};
+			name = Release;
+		};
+		70EA0BE920654E3E009D8831 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6A6C69FCD35D6D022DA557B /* Pods-Readhub-lyUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HQWU6EWT6X;
+				INFOPLIST_FILE = "Readhub-lyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "halohily.com.Readhub-lyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Readhub-ly";
+			};
+			name = Debug;
+		};
+		70EA0BEA20654E3E009D8831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAC6DD52413489D90DA0016A /* Pods-Readhub-lyUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HQWU6EWT6X;
+				INFOPLIST_FILE = "Readhub-lyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "halohily.com.Readhub-lyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Readhub-ly";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70EA0BB120654E3E009D8831 /* Build configuration list for PBXProject "Readhub-ly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70EA0BE020654E3E009D8831 /* Debug */,
+				70EA0BE120654E3E009D8831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70EA0BE220654E3E009D8831 /* Build configuration list for PBXNativeTarget "Readhub-ly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70EA0BE320654E3E009D8831 /* Debug */,
+				70EA0BE420654E3E009D8831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70EA0BE520654E3E009D8831 /* Build configuration list for PBXNativeTarget "Readhub-lyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70EA0BE620654E3E009D8831 /* Debug */,
+				70EA0BE720654E3E009D8831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70EA0BE820654E3E009D8831 /* Build configuration list for PBXNativeTarget "Readhub-lyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70EA0BE920654E3E009D8831 /* Debug */,
+				70EA0BEA20654E3E009D8831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70EA0BAE20654E3E009D8831 /* Project object */;
+}

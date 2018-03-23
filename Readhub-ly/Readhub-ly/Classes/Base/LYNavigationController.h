@@ -1,0 +1,13 @@
+//
+//  LYNavigationController.h
+//  Readhub-ly
+//
+//  Created by halohily on 2018/3/24.
+//  Copyright © 2018年 halohily.com. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface LYNavigationController : UINavigationController
+
+@end
