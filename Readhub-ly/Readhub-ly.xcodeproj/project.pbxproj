@@ -7,16 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		088CCEFF2067D98C0093F0A2 /* TopicsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 088CCEFE2067D98C0093F0A2 /* TopicsViewController.m */; };
+		088CCF042067E1140093F0A2 /* LYFetchDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 088CCF032067E1140093F0A2 /* LYFetchDataManager.m */; };
 		193BC013DB8F47403A7A2A93 /* libPods-Readhub-lyTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54333B48EC3DB930FB3C7DE9 /* libPods-Readhub-lyTests.a */; };
 		6D69B262CD79F768DD3B9780 /* libPods-Readhub-lyUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4199C360AF94A16156E4AA01 /* libPods-Readhub-lyUITests.a */; };
-		705F0F0D20655585001D4CC1 /* TopicsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 705F0F0C20655585001D4CC1 /* TopicsViewController.m */; };
 		705F0F12206555BD001D4CC1 /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 705F0F11206555BD001D4CC1 /* NewsViewController.m */; };
 		705F0F15206555CC001D4CC1 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 705F0F14206555CC001D4CC1 /* ProfileViewController.m */; };
 		705F0F1B20656B56001D4CC1 /* LYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 705F0F1A20656B56001D4CC1 /* LYNavigationController.m */; };
 		70EA0BBB20654E3E009D8831 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EA0BBA20654E3E009D8831 /* AppDelegate.m */; };
-		70EA0BC120654E3E009D8831 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70EA0BBF20654E3E009D8831 /* Main.storyboard */; };
 		70EA0BC320654E3E009D8831 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70EA0BC220654E3E009D8831 /* Assets.xcassets */; };
-		70EA0BC620654E3E009D8831 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70EA0BC420654E3E009D8831 /* LaunchScreen.storyboard */; };
 		70EA0BC920654E3E009D8831 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EA0BC820654E3E009D8831 /* main.m */; };
 		70EA0BD320654E3E009D8831 /* Readhub_lyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EA0BD220654E3E009D8831 /* Readhub_lyTests.m */; };
 		70EA0BDE20654E3E009D8831 /* Readhub_lyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EA0BDD20654E3E009D8831 /* Readhub_lyUITests.m */; };
@@ -43,13 +42,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		088CCEFD2067D98C0093F0A2 /* TopicsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TopicsViewController.h; sourceTree = "<group>"; };
+		088CCEFE2067D98C0093F0A2 /* TopicsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopicsViewController.m; sourceTree = "<group>"; };
+		088CCF022067E1140093F0A2 /* LYFetchDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYFetchDataManager.h; sourceTree = "<group>"; };
+		088CCF032067E1140093F0A2 /* LYFetchDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYFetchDataManager.m; sourceTree = "<group>"; };
 		28DF62F7CF9AF5B30F6B7A90 /* Pods-Readhub-lyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Readhub-lyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Readhub-lyTests/Pods-Readhub-lyTests.release.xcconfig"; sourceTree = "<group>"; };
 		4199C360AF94A16156E4AA01 /* libPods-Readhub-lyUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Readhub-lyUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44FD38305C11EA54D416ED36 /* Pods-Readhub-ly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Readhub-ly.release.xcconfig"; path = "Pods/Target Support Files/Pods-Readhub-ly/Pods-Readhub-ly.release.xcconfig"; sourceTree = "<group>"; };
 		54333B48EC3DB930FB3C7DE9 /* libPods-Readhub-lyTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Readhub-lyTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E76B266F2DECE32A92320CF /* libPods-Readhub-ly.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Readhub-ly.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		705F0F0B20655585001D4CC1 /* TopicsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TopicsViewController.h; path = ../../../../../../Documents/TopicsViewController.h; sourceTree = "<group>"; };
-		705F0F0C20655585001D4CC1 /* TopicsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TopicsViewController.m; path = ../../../../../../Documents/TopicsViewController.m; sourceTree = "<group>"; };
 		705F0F10206555BD001D4CC1 /* NewsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
 		705F0F11206555BD001D4CC1 /* NewsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
 		705F0F13206555CC001D4CC1 /* ProfileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
@@ -60,9 +61,7 @@
 		70EA0BB620654E3E009D8831 /* Readhub-ly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Readhub-ly.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		70EA0BB920654E3E009D8831 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		70EA0BBA20654E3E009D8831 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		70EA0BC020654E3E009D8831 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		70EA0BC220654E3E009D8831 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		70EA0BC520654E3E009D8831 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		70EA0BC720654E3E009D8831 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		70EA0BC820654E3E009D8831 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		70EA0BCE20654E3E009D8831 /* Readhub-lyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Readhub-lyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -109,14 +108,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		705F0F0A2065554F001D4CC1 /* Topics */ = {
+		088CCEFC2067D9700093F0A2 /* Topics */ = {
 			isa = PBXGroup;
 			children = (
-				705F0F0B20655585001D4CC1 /* TopicsViewController.h */,
-				705F0F0C20655585001D4CC1 /* TopicsViewController.m */,
+				088CCEFD2067D98C0093F0A2 /* TopicsViewController.h */,
+				088CCEFE2067D98C0093F0A2 /* TopicsViewController.m */,
 			);
-			name = Topics;
-			path = "New Group";
+			path = Topics;
+			sourceTree = "<group>";
+		};
+		088CCF002067E0BA0093F0A2 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		088CCF012067E0C40093F0A2 /* HTTPManager */ = {
+			isa = PBXGroup;
+			children = (
+				088CCF022067E1140093F0A2 /* LYFetchDataManager.h */,
+				088CCF032067E1140093F0A2 /* LYFetchDataManager.m */,
+			);
+			path = HTTPManager;
 			sourceTree = "<group>";
 		};
 		705F0F0E2065558B001D4CC1 /* News */ = {
@@ -165,8 +179,6 @@
 				70EA0BEE20654EB0009D8831 /* Classes */,
 				70EA0BED20654E96009D8831 /* Resource */,
 				70EA0BEB20654E63009D8831 /* Application */,
-				70EA0BBF20654E3E009D8831 /* Main.storyboard */,
-				70EA0BC420654E3E009D8831 /* LaunchScreen.storyboard */,
 				70EA0BC720654E3E009D8831 /* Info.plist */,
 			);
 			path = "Readhub-ly";
@@ -212,8 +224,10 @@
 		70EA0BEE20654EB0009D8831 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				088CCF012067E0C40093F0A2 /* HTTPManager */,
+				088CCF002067E0BA0093F0A2 /* Tools */,
 				70EA0BEF20654EBD009D8831 /* Base */,
-				705F0F0A2065554F001D4CC1 /* Topics */,
+				088CCEFC2067D9700093F0A2 /* Topics */,
 				705F0F0E2065558B001D4CC1 /* News */,
 				705F0F0F206555A5001D4CC1 /* Profile */,
 			);
@@ -370,9 +384,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70EA0BC620654E3E009D8831 /* LaunchScreen.storyboard in Resources */,
 				70EA0BC320654E3E009D8831 /* Assets.xcassets in Resources */,
-				70EA0BC120654E3E009D8831 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -522,12 +534,13 @@
 			files = (
 				70EA0BF520654EFB009D8831 /* LYTabController.m in Sources */,
 				70EA0BC920654E3E009D8831 /* main.m in Sources */,
+				088CCEFF2067D98C0093F0A2 /* TopicsViewController.m in Sources */,
 				70EA0BBB20654E3E009D8831 /* AppDelegate.m in Sources */,
 				705F0F12206555BD001D4CC1 /* NewsViewController.m in Sources */,
 				705F0F1B20656B56001D4CC1 /* LYNavigationController.m in Sources */,
+				088CCF042067E1140093F0A2 /* LYFetchDataManager.m in Sources */,
 				705F0F15206555CC001D4CC1 /* ProfileViewController.m in Sources */,
 				70EA0BF220654ED4009D8831 /* LYBaseViewController.m in Sources */,
-				705F0F0D20655585001D4CC1 /* TopicsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -561,25 +574,6 @@
 			targetProxy = 70EA0BDA20654E3E009D8831 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		70EA0BBF20654E3E009D8831 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				70EA0BC020654E3E009D8831 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		70EA0BC420654E3E009D8831 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				70EA0BC520654E3E009D8831 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		70EA0BE020654E3E009D8831 /* Debug */ = {
@@ -700,6 +694,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "halohily.com.Readhub-ly";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Debug;
 		};
@@ -717,6 +712,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "halohily.com.Readhub-ly";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Release;
 		};
